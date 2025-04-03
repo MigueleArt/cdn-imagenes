@@ -19,7 +19,7 @@ export default function Galeria() {
     formData.append("file", archivo);
 
     try {
-      const respuesta = await fetch("http://localhost:4000/images/upload", {
+      const respuesta = await fetch("http://3523110467-JMiguelAPI-backend.rvdental.fun/images/upload", {
         method: "POST",
         body: formData,
       });
